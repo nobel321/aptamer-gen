@@ -30,7 +30,7 @@ output = openai.ChatCompletion.create(
 
 output_ = output['choices'][0]['message']['content']
 
-print(output['choices'][0]['message']['content'])
+# print(output['choices'][0]['message']['content'])
 
 def create_indexed_list(input_string):
     # Split the input string by lines and strip any leading/trailing whitespaces
@@ -60,10 +60,8 @@ ATTRIBUTES = result
 
 #objectives
 """
-- parse spreadsheet for matching values
-- get access to pool type
-- parse and identify variable region of other sequences
 - replace variable region of original sequence
+- understand how gene sequences folding - tertiary/secondary structures
 - output sequence
 - setup binding affinity test
 """

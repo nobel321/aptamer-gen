@@ -19,10 +19,10 @@ def extract_between_constant_regions(pool_type, full_sequence):
     
     return constant_regions, segment_between_constant_regions
 
-# Example usage
-pool_type = "5'-GGGAGAUACCAGCUUAUUCAAUU-N71-AGAUAGUAAGUGCAAUCU-3'"
-full_sequence = "5'GGGAGAUACCAGCUUAUUCAAUUUCUAGUCAAGUUGCAAUCUCCGGUGGGGUGGUAACCGAGGAACACGUUUCGGGUGUAUAGGCUAGCGAGAUAGUAAGUGCAAUCU3'"
+# # Example usage
+# pool_type = "5'-GGGAGAUACCAGCUUAUUCAAUU-N71-AGAUAGUAAGUGCAAUCU-3'"
+# full_sequence = "5'GGGAGAUACCAGCUUAUUCAAUUUCUAGUCAAGUUGCAAUCUCCGGUGGGGUGGUAACCGAGGAACACGUUUCGGGUGUAUAGGCUAGCGAGAUAGUAAGUGCAAUCU3'"
 
-constant_regions, segment_between_constant_regions = extract_between_constant_regions(pool_type, full_sequence)
-print("Constant Regions:", constant_regions)
-print("Segment Between Constant Regions:", segment_between_constant_regions)
+# constant_regions, segment_between_constant_regions = extract_between_constant_regions(pool_type, full_sequence)
+# print("Constant Regions:", constant_regions)
+# print("Segment Between Constant Regions:", segment_between_constant_regions)
