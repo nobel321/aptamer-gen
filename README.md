@@ -1,6 +1,6 @@
-# Aptamer-Gen AI
+# Hybridization Aptamer Generation Algorithm (HAGA)
 
-Aptamer-Gen is an AI program designed to predict the binding affinity between a target and a DNA sequence using aptamer prediction methods. This program leverages deep learning approaches to provide accurate and efficient predictions of aptamer-protein interactions. Though it's still in development, currently the project's basic functionalities can be encapsulated in the phrase: **[BLAST]([url](https://blast.ncbi.nlm.nih.gov/Blast.cgi)) for aptamers**
+HAGA is an AI program designed to predict the binding affinity between a target and a DNA sequence using aptamer prediction methods. This program leverages deep learning approaches to provide accurate and efficient predictions of aptamer-protein interactions. Though it's still in development, currently the project's basic functionalities can be encapsulated in the phrase: **[BLAST]([url](https://blast.ncbi.nlm.nih.gov/Blast.cgi)) for aptamers**
 
 ## Features
 
@@ -10,7 +10,7 @@ Aptamer-Gen is an AI program designed to predict the binding affinity between a 
 
 ## Installation
 
-To install Aptamer-Gen, follow these steps:
+To install HAGA, follow these steps:
 
 1. Clone the repository from GitHub:
 
